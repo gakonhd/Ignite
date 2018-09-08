@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1745258E686014003BB72E51 /* libPods-IgnitePOCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8D0F1E712A2B6F95442AA1 /* libPods-IgnitePOCTests.a */; };
+		2EE134FD37A1DCBF072FAAF1 /* libPods-IgnitePOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7EE48FD239BF6FD992DF97 /* libPods-IgnitePOC.a */; };
 		5AFF0069211D2915009BB539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF0068211D2915009BB539 /* AppDelegate.swift */; };
 		5AFF006B211D2915009BB539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF006A211D2915009BB539 /* ViewController.swift */; };
 		5AFF006E211D2915009BB539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF006C211D2915009BB539 /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		5AFF0073211D2916009BB539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF0071211D2916009BB539 /* LaunchScreen.storyboard */; };
 		5AFF007E211D2916009BB539 /* IgnitePOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF007D211D2916009BB539 /* IgnitePOCTests.swift */; };
 		5AFF0089211D2916009BB539 /* IgnitePOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF0088211D2916009BB539 /* IgnitePOCUITests.swift */; };
+		5AFF0097211D2A2A009BB539 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF0096211D2A2A009BB539 /* GoogleService-Info.plist */; };
+		5AFF0098211D2A2A009BB539 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF0096211D2A2A009BB539 /* GoogleService-Info.plist */; };
+		5AFF0099211D2A2A009BB539 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF0096211D2A2A009BB539 /* GoogleService-Info.plist */; };
+		97B780941CA52E80F9A3E7EA /* libPods-IgnitePOCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F893F84698B8EBEFD9C12ABA /* libPods-IgnitePOCUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B9DBB072838E863F4A55AAB /* Pods-IgnitePOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgnitePOCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IgnitePOCTests/Pods-IgnitePOCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FA565F55F5D2575F1B0437A /* Pods-IgnitePOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgnitePOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IgnitePOC/Pods-IgnitePOC.debug.xcconfig"; sourceTree = "<group>"; };
 		5AFF0065211D2915009BB539 /* IgnitePOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgnitePOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFF0068211D2915009BB539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AFF006A211D2915009BB539 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		5AFF0084211D2916009BB539 /* IgnitePOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IgnitePOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFF0088211D2916009BB539 /* IgnitePOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnitePOCUITests.swift; sourceTree = "<group>"; };
 		5AFF008A211D2916009BB539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AFF0096211D2A2A009BB539 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9661503AE2069E9A3D10C483 /* Pods-IgnitePOCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgnitePOCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IgnitePOCTests/Pods-IgnitePOCTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA7EE48FD239BF6FD992DF97 /* libPods-IgnitePOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IgnitePOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8D0F1E712A2B6F95442AA1 /* libPods-IgnitePOCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IgnitePOCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE26A00271C10428CE42615 /* Pods-IgnitePOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgnitePOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-IgnitePOC/Pods-IgnitePOC.release.xcconfig"; sourceTree = "<group>"; };
+		E30910C16445FE7993167821 /* Pods-IgnitePOCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgnitePOCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IgnitePOCUITests/Pods-IgnitePOCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA132B4DB42B9BEAB13B561B /* Pods-IgnitePOCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgnitePOCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IgnitePOCUITests/Pods-IgnitePOCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F893F84698B8EBEFD9C12ABA /* libPods-IgnitePOCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IgnitePOCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE134FD37A1DCBF072FAAF1 /* libPods-IgnitePOC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1745258E686014003BB72E51 /* libPods-IgnitePOCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B780941CA52E80F9A3E7EA /* libPods-IgnitePOCUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				5AFF007C211D2916009BB539 /* IgnitePOCTests */,
 				5AFF0087211D2916009BB539 /* IgnitePOCUITests */,
 				5AFF0066211D2915009BB539 /* Products */,
+				F4B876CF315FC4CF28689CEF /* Pods */,
+				B6830EE552BF28C681EEBC79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +124,7 @@
 				5AFF006F211D2916009BB539 /* Assets.xcassets */,
 				5AFF0071211D2916009BB539 /* LaunchScreen.storyboard */,
 				5AFF0074211D2916009BB539 /* Info.plist */,
+				5AFF0096211D2A2A009BB539 /* GoogleService-Info.plist */,
 			);
 			path = IgnitePOC;
 			sourceTree = "<group>";
@@ -125,6 +147,29 @@
 			path = IgnitePOCUITests;
 			sourceTree = "<group>";
 		};
+		B6830EE552BF28C681EEBC79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA7EE48FD239BF6FD992DF97 /* libPods-IgnitePOC.a */,
+				BD8D0F1E712A2B6F95442AA1 /* libPods-IgnitePOCTests.a */,
+				F893F84698B8EBEFD9C12ABA /* libPods-IgnitePOCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4B876CF315FC4CF28689CEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FA565F55F5D2575F1B0437A /* Pods-IgnitePOC.debug.xcconfig */,
+				BFE26A00271C10428CE42615 /* Pods-IgnitePOC.release.xcconfig */,
+				4B9DBB072838E863F4A55AAB /* Pods-IgnitePOCTests.debug.xcconfig */,
+				9661503AE2069E9A3D10C483 /* Pods-IgnitePOCTests.release.xcconfig */,
+				EA132B4DB42B9BEAB13B561B /* Pods-IgnitePOCUITests.debug.xcconfig */,
+				E30910C16445FE7993167821 /* Pods-IgnitePOCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AFF008D211D2916009BB539 /* Build configuration list for PBXNativeTarget "IgnitePOC" */;
 			buildPhases = (
+				440C415C84ED155701B2007E /* [CP] Check Pods Manifest.lock */,
 				5AFF0061211D2915009BB539 /* Sources */,
 				5AFF0062211D2915009BB539 /* Frameworks */,
 				5AFF0063211D2915009BB539 /* Resources */,
@@ -149,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AFF0090211D2916009BB539 /* Build configuration list for PBXNativeTarget "IgnitePOCTests" */;
 			buildPhases = (
+				F616631FCC2735D77ED8DC62 /* [CP] Check Pods Manifest.lock */,
 				5AFF0075211D2916009BB539 /* Sources */,
 				5AFF0076211D2916009BB539 /* Frameworks */,
 				5AFF0077211D2916009BB539 /* Resources */,
@@ -167,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AFF0093211D2916009BB539 /* Build configuration list for PBXNativeTarget "IgnitePOCUITests" */;
 			buildPhases = (
+				D4BFB48CE9C9888854D41DB7 /* [CP] Check Pods Manifest.lock */,
 				5AFF0080211D2916009BB539 /* Sources */,
 				5AFF0081211D2916009BB539 /* Frameworks */,
 				5AFF0082211D2916009BB539 /* Resources */,
@@ -230,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AFF0073211D2916009BB539 /* LaunchScreen.storyboard in Resources */,
+				5AFF0097211D2A2A009BB539 /* GoogleService-Info.plist in Resources */,
 				5AFF0070211D2916009BB539 /* Assets.xcassets in Resources */,
 				5AFF006E211D2915009BB539 /* Main.storyboard in Resources */,
 			);
@@ -239,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AFF0098211D2A2A009BB539 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +296,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AFF0099211D2A2A009BB539 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		440C415C84ED155701B2007E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IgnitePOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4BFB48CE9C9888854D41DB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IgnitePOCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F616631FCC2735D77ED8DC62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IgnitePOCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5AFF0061211D2915009BB539 /* Sources */ = {
@@ -428,6 +536,7 @@
 		};
 		5AFF008E211D2916009BB539 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA565F55F5D2575F1B0437A /* Pods-IgnitePOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +554,7 @@
 		};
 		5AFF008F211D2916009BB539 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE26A00271C10428CE42615 /* Pods-IgnitePOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +572,7 @@
 		};
 		5AFF0091211D2916009BB539 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B9DBB072838E863F4A55AAB /* Pods-IgnitePOCTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +593,7 @@
 		};
 		5AFF0092211D2916009BB539 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9661503AE2069E9A3D10C483 /* Pods-IgnitePOCTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +614,7 @@
 		};
 		5AFF0094211D2916009BB539 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA132B4DB42B9BEAB13B561B /* Pods-IgnitePOCUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +634,7 @@
 		};
 		5AFF0095211D2916009BB539 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30910C16445FE7993167821 /* Pods-IgnitePOCUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
