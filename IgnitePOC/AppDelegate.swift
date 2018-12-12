@@ -8,9 +8,10 @@
 
 import UIKit
 import Firebase
+import FirebaseUI
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, FUIAuthDelegate {
 
     var window: UIWindow?
     var ref: DatabaseReference!
@@ -18,6 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        let authUI = FUIAuth.defaultAuthUI()
+        if authUI == nil {
+            //present your own UI
+        } else {
+            authUI?.delegate = self
+        }
         
         return true
     }
@@ -47,3 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+
+//extension AppDelegate:, FUIAuthDelegate {
+//
+//}

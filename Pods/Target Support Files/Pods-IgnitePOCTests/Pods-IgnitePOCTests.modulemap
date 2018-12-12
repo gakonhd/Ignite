@@ -1,0 +1,6 @@
+framework module Pods_IgnitePOCTests {
+  umbrella header "Pods-IgnitePOCTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

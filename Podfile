@@ -3,13 +3,17 @@
 
 target 'IgnitePOC' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  #use_frameworks!
+  use_frameworks!
 
   # Pods for IgnitePOC
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Crash'
   pod 'Firebase/Messaging'
+  pod 'FirebaseUI'
+  pod 'FirebaseUI/Auth'
+  pod 'FirebaseUI/Google'
   target 'IgnitePOCTests' do
     inherit! :search_paths
     # Pods for testing
